@@ -1,0 +1,41 @@
+<form>
+	{{action}} filmu
+	<div class="form-group">
+    	<label for="title">Tytul</label>
+    	<input type="text" class="form-control"
+    	 id="title" placeholder="Wpisz tytul" 
+    	 ng-model="film.title">
+  	</div>
+  	<div class="form-group">
+    	<label for="year">Rok</label>
+    	<input type="integer" class="form-control"
+    	 id="year" placeholder="Wpisz rok" 
+    	 ng-model="film.year">
+  	</div>
+  	<div class="form-group">
+    	<label for="director">Rezyser</label>
+    	<input type="text" class="form-control"
+    	 id="director" placeholder="Wpisz rezysera" 
+    	 ng-model="film.director">
+  	</div>
+  	<div class="form-group">
+    	<label for="premiere">Premiera</label>
+    	<input type="date" class="form-control"
+    	 id="premiere" placeholder="Wpisz premiere" 
+    	 ng-model="film.premiere">
+  	</div>
+  	<div class="form-group">
+    	<label for="desc">Opis</label>
+    	<input type="text" class="form-control"
+    	 id="desc" placeholder="Wpisz opis" 
+    	 ng-model="film.description">
+  	</div>
+  	<div class="form-group">
+    	<label for="kind">Rodzaj</label>
+    	<input type="text" class="form-control"
+    	 id="kind" placeholder="Wpisz rodzaj" 
+    	 ng-model="film.kind">
+  	</div>
+  <button type="button" class="btn btn-default" ng-click="saveToDb()">Submit</button>
+</form>
+<p>Stan: {{state}}</p>

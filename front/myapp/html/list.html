@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-sm-6 col-md-4" ng-repeat="film in films">
+    <div class="thumbnail">
+      <img 
+      	ng-src="{{trustSrc(film.thumb)}}"
+      	
+      >
+      </img>
+      <div class="caption list">
+        <h3>{{film.title}}</h3>
+        <p>{{trunc(film.description)}}</p>
+        <p>
+        	<a class="btn btn-primary" ng-click="show_details(film.id)">
+        		<i class="fa fa-film"></i> 
+        		Szczegóły
+        	</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

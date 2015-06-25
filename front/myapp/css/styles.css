@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.thumbnail img{
+    width: 419px;
+    height: 606px;
+    overflow: auto;
+}
+
+.caption.detail{
+	text-align: center;
+}
+
+.caption.list .ng-binding{
+	text-align: justify;
+}

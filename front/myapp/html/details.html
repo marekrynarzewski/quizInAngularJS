@@ -1,0 +1,38 @@
+<div class="thumbail">
+  	<video class="full-screen"
+  		controls
+  		ng-src="{{trustSrc(movie.path)}}"
+  		ng-attr-poster="{{trustSrc(movie.thumb)}}"
+  		width="100%"
+  	>
+	</video>
+	
+  	<div class="detail">
+  		<table class="table table-hover">
+  			<tr>
+  				<th colspan="2" class="text-center"><h4>{{movie.title}}</h4></th>
+  			</tr>
+  			<tr>
+  				<th class="text-right">Opis</th>
+  				<td>{{movie.description}}</td>
+  			</tr>
+  			<tr>
+  				<th class="text-right">Rok</th>
+  				<td>{{movie.year}}</td>
+  			</tr>
+  			<tr>
+  				<th class="text-right">Premiera</th>
+  				<td>{{movie.premiere}}</td>
+  			</tr>
+  			<tr>
+  				<th class="text-right">Reżyser</th>
+  				<td>{{movie.director}}</td>
+  			</tr>
+  			<tr>
+  				<th class="text-right">Rodzaj</th>
+  				<td>{{movie.kind}}</td>
+  			</tr>
+  		</table>
+	</div>
+</div>
+

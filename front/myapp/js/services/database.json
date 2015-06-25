@@ -1,0 +1,59 @@
+{
+	"films": {
+		"838aJjJI73hshU": {
+		    "id":"838aJjJI73hshU",
+		    "title":"Marek w krainie słoni",
+		    "year":2014,
+		    "director":"Pohl Kynażefski",
+		    "premiere":"2015-05-30",
+		    "description":"O chłopcu, który nie znalazł zaufania u ludzi, ale wśród",
+		    "kind":"przygodowy",
+		    "path":"../Dzień Kobitek 2014.mp4",
+		     "thumbnail":"../streaming_video/Snowball.png"
+		},
+		"ad943uhduwnIIj": {
+		    "id":"ad943uhduwnIIj",
+		    "title":"Słońce - ostatnia gwiazda na niebie",
+		    "year":1993,
+		    "director":"Tomasz Kuszowawerski",
+		    "premiere":"1997-11-07",
+		    "description":"W tajemniczych okolicznościach z nieba znikają kolejne.",
+		    "kind":"thriller",
+		    "path":"../Dzień Kobitek 2014.mp4",
+		     "thumbnail":"../streaming_video/Snowball.png"
+		},
+		"9u438ji23uhUHSAJDj": {
+		    "id":"9u438ji23uhUHSAJDj",
+		    "title":"Prawo ojca do syna",
+		    "year":1964,
+		    "director":"Michaił Zwagjenciwe",
+		    "premiere":"1965-12-04",
+		    "description":"Film o tym, że ojciec ma prawo do syna",
+		    "kind":"familijny",
+		    "path":"../Dzień Kobitek 2014.mp4",
+		    "thumbnail":"../streaming_video/Snowball.png"
+		},
+	  	"9u438ji23uhregAJDj": {
+		    "id":"9u438ji23uhregAJDj",
+		    "title":"Prawo syna do syna",
+		    "year":1964,
+		    "director":"Michaił Zwagjenciwe",
+		    "premiere":"1965-12-04",
+		    "description":"Film o tym, że ojciec ma prawo do syna",
+		    "kind":"familijny",
+		    "path":"../Dzień Kobitek 2014.mp4",
+		     "thumbnail":"../streaming_video/Snowball.png"
+		},
+	    "2i3mewkjcjadhsadjsaj": {
+		    "id":"2i3mewkjcjadhsadjsaj",
+		    "title":"Takaguna - nieznana i tajemnicza wyspa Pacyfiku",
+		    "year":1993,
+		    "director":"Andrzej Grzanek",
+		    "premiere":"1997-11-07",
+		    "description":"Samotny wędrownik wyrusza na Takagunę - zapomnianą wyspę Pacyfiku.",
+		    "kind":"przyrodniczy",
+		    "path":"../Dzień Kobitek 2014.mp4",
+		     "thumbnail":"../streaming_video/Snowball.png"
+		}
+	}
+}
